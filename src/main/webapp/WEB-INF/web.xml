@@ -1,0 +1,11 @@
+<web-app>
+    <servlet>
+        <servlet-name>selectBookServlet</servlet-name>
+        <servlet-class>ro.alex.servlet.LibraryServlet</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>selectBookServlet</servlet-name>
+        <url-pattern>/SelectBook</url-pattern>
+    </servlet-mapping>
+</web-app>
